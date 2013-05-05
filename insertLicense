@@ -1,0 +1,10 @@
+#!/bin/bash
+
+CH='/usr/local/bin/copyright-header'
+
+SW='GFLIP'
+DESC="Geometrical FLIRT Phrases for Large Scale Place Recognition"
+HOLDER="Gian Diego Tipaldi and Luciano Spinello and Wolfram Burgard"
+YEAR="2012-2013"
+
+$CH --copyright-software "$SW" --copyright-software-description "$DESC" --copyright-holder "$HOLDER" --copyright-year "$YEAR" $@
